@@ -28,3 +28,4 @@ elasticsearch<7.14.0
 # tox>4.0.0 isn't yet compatible with many tox plugins, causing CI failures in almost all repos.
 # Details can be found in this discussion: https://github.com/tox-dev/tox/discussions/1810
 tox<4.0.0
+certifi>=2024.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
