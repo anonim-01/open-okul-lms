@@ -1,4 +1,4 @@
-FROM ubuntu:focal as minimal-system
+FROM ubuntu:20.04 as minimal-system
 
 # Warning: This file is experimental.
 #
